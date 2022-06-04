@@ -1,0 +1,24 @@
+   
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,500;1,900&display=swap');
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 95vh;
+    padding-right: 10vw;
+}
+li{
+    list-style: none;
+    color: rgb(235,178,161);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 5vh;
+    padding:2% 0;
+    a{
+        text-decoration: none;
+        color: rgb(235,178,161);
+    }
+}

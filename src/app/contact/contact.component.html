@@ -1,0 +1,6 @@
+<div class="contact">
+    <input @first [(ngModel)]="name" name="name"  type="text">
+    <input @second [(ngModel)]="email"  name="email" type="text">
+    <input @third [(ngModel)]="phone" name="phone" type="tel">
+    <button @button (click)="submitForm()">Click</button>
+</div>

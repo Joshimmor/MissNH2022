@@ -1,0 +1,31 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+  }
+  .contact > input {
+    border: 3px rgba(212,162,145) solid;
+    width: 80%;
+    padding: 5%;
+    margin:3%
+  }
+  .contact > button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    color: rgba(212,162,145);
+    font-size: large;
+    font-style: italic;
+    height: auto;
+    width: 80%;
+    padding: 5%;
+    margin:3%;
+    background-color:#7c7c7c;
+    border: solid #BDBDBD 1px; 
+    box-shadow: 15px 12px 0 linear-gradient(90deg, rgba(235,178,161,1) 25%, rgba(212,162,145,1) 100%) ; 
+    -webkit-box-shadow: 15px 12px 0 rgba(205, 151, 135, 0.5)  ; 
+    -moz-box-shadow: 15px 12px 0 rgba(205, 151, 135, 0.5)  ; 
+  }

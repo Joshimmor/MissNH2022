@@ -1,0 +1,4 @@
+<div class="gallery">
+    <img @pic *ngFor="let item of imgRef" [src]="item" alt="" (click)="onClick(item)">
+</div>
+

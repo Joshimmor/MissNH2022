@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "MissNH2022:build:production",
+            "firebaseProject": "missnh2022",
+            "firebaseHostingSite": "missnh2022"
+          }
         }
       }
     }

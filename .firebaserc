@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "missnh2022": {
+      "hosting": {
+        "MissNH2022": [
+          "missnh2022"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "missnh2022"
+  }
+}

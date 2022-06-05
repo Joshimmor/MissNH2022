@@ -6,7 +6,7 @@
     <router-outlet  class="router"></router-outlet>
     <div class="button-layer">
       <button mat-icon-button class="menu-btn" type="button"  (click)="drawer.toggle()" (click)="opened = !opened">
-        Menu <mat-icon>{{opened?'close':'menu'}}</mat-icon>
+        Menu <mat-icon>{{view?'close':'menu'}}</mat-icon>
       </button>
     </div>
   </div>

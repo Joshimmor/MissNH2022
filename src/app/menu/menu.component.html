@@ -1,11 +1,14 @@
 <ul>
     <li routerLink="/" (click)="closeDrawer()" >Home</li>
+    <li (click)="showSocial()">Social</li>
+    <li @social class="social" *ngIf="socialView"><a href="https://www.instagram.com/missnhusa/" target='_blank' rel="noreferrer">@missnhusa</a></li>
+    <li @social class="social" *ngIf="socialView"><a href="https://www.instagram.com/camilasacco7/" target='_blank' rel="noreferrer">@camilasacco7</a></li>
+    <li @social class="social" *ngIf="socialView"><a href="https://www.instagram.com/fromrootstoself/" target='_blank' rel="noreferrer">@fromrootstoself</a></li>
+    <li routerLink="/contact"   (click)="closeDrawer()" >Contact</li>
     <li routerLink="/gallery" (click)="closeDrawer()" >Gallery</li>
     <li>
         <a  href='https://account.venmo.com/u/camilasacco7' target='_blank'>
-        Sponorship
+        Sponsorship
         </a>
     </li>
-    <li>Social</li>
-    <li routerLink="/contact"   (click)="closeDrawer()" >Contact</li>
 </ul>
